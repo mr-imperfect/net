@@ -14,9 +14,13 @@
     /* max-width: 250px; */
     max-height: 200px;
     margin-right: 15px;
-    margin-left: 10px;
+    margin-left: 20px;
     border-radius: 2px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.rowimages img:hover{
+    transform: scale(1.2);
 }
 .smallposter{
     min-width: 100%;
@@ -25,5 +29,9 @@
     margin: 15px;
     max-height: 100px;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
     /* max-width: 130px; */
+}
+.smallposter img:hover{
+    transform: scale(1.2);
 }
