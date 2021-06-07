@@ -1,0 +1,29 @@
+.rowposter{
+    margin-top: 30px;
+}
+
+.rowposter h3{
+    margin: 15px;
+    margin-bottom   : 20px;
+    color: white;
+}
+.rowimages{
+    display: flex;
+}
+.rowimages img{
+    /* max-width: 250px; */
+    max-height: 200px;
+    margin-right: 15px;
+    margin-left: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.smallposter{
+    min-width: 100%;
+}
+.smallposter img{
+    margin: 15px;
+    max-height: 100px;
+    cursor: pointer;
+    /* max-width: 130px; */
+}
